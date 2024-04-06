@@ -55,6 +55,8 @@ The objective of this project is to develop a web application for managing a sto
 - Add the ability to track the history of stock changes.
 - Enhance the user interface with interactive charts and graphs for better data visualization.
 
+---
+---
 
 <div align="center">
   <img src="https://github.com/Luismcs/5414_Stock-Management-Web-App/blob/main/Appliance%20Stock%20Management%20Web%20App/images/login.png" alt="Stock Management Login" width="400">
