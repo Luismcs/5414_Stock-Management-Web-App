@@ -37,13 +37,6 @@ The objective of this project is to develop a web application for managing a sto
 - Include a footer with your "signature" and the tools your Web App utilizes.
 - You can use a library or framework of styles, but NOT a template.
 
-### Final Adjustments
-
-- Code review and cleanup.
-- User feedback.
-- User interface.
-- Other relevant features you find necessary.
-
 ## Technologies Used
 
 - JavaScript
