@@ -56,6 +56,8 @@ The objective of this project is to develop a web application for managing a sto
 2. Open the project in your preferred code editor.
 3. Run the application using a web server.
 4. Access the application through a web browser.
+![Stock Management Login]([https://example.com/stock_management.png](https://github.com/Luismcs/5414_Stock-Management-Web-App/blob/main/Appliance%20Stock%20Management%20Web%20App/images/add.png))
+
 
 ## Future Updates
 
