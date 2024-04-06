@@ -1,0 +1,91 @@
+body{
+    padding-top: 100px;
+}
+
+.meu-grid{
+
+    display: grid;
+    grid-template-areas:
+        "conteudo"                                      /*Áreas da grid*/
+        "rodape";                                       /*Áreas da grid*/
+
+
+    grid-template-rows: min-content auto 64px;          /*Tamanho das rows*/
+    /*grid-template-columns: auto;                       Tamando da colunas*/
+
+    gap: 8px;                                           /* Espaço entre areas da grid */
+
+    /*
+        row-gap: 4px;                                   /* Gap apenas entre linhas da grid
+        column-gap: 32px;                               /* Gap apenas entre colunas da grid
+     */
+
+    padding: 8px;
+
+    min-height: 80vh;                                  /* Altura da grid */
+
+
+    justify-items: center;                              /*Alinha os itens da grid ao centro*/
+    /*
+        justify-items: end;                             Alinha os itens da grid ao fim
+        justify-items: start;                           Alinha os itens da grid
+    */
+
+
+}
+
+.meu-grid > .conteudo{
+    grid-area: conteudo;
+}
+
+.meu-grid > .conteudo main{
+    background-image: linear-gradient(to bottom right, #5da900, #47813b);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.25);
+}
+
+
+
+.meu-grid > .rodape{
+    grid-area: rodape;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #2196f3, #1976d2);
+}
+
+
+
+@media (min-width: 576px) {  /*Quando a largura minima for 576px*/
+
+    .meu-grid{
+        grid-template-areas:
+            "conteudo conteudo conteudo"
+            "rodape rodape rodape";
+        grid-template-rows: auto min-content;
+        grid-template-columns: 256px auto auto;
+
+    }
+
+    .meu-grid > .rodape{
+        grid-area: rodape;
+    }
+
+}
+
+.img{
+    height : 200px;
+    width: 220px;
+    border-radius: 50%;
+}
+
+.formLogin{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.footerText{
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
